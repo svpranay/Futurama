@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="@drawable/one"
+            android:title="Family Guy" />
+        <item
+            android:id="@+id/nav_second_fragment"
+            android:icon="@drawable/two"
+            android:title="Futurama" />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@drawable/three"
+            android:title="Simpsons" />
+
+        <item android:title="More">
+            <menu>
+                <item
+                    android:id="@+id/nav_fourth_fragment"
+                    android:icon="@drawable/one"
+                    android:title="SouthPark" />
+                <item
+                    android:icon="@drawable/two"
+                    android:title="Dafuq" />
+            </menu>
+        </item>
+    </group>
+
+</menu>
